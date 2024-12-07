@@ -1,0 +1,41 @@
+h2{
+    text-align: start;
+}
+
+
+  .location-card {
+    border: 1px solid #ccc;
+    padding: 40px;
+    text-align: center;
+    height: 5vh;
+    width: 5vw;
+    background-color: #f4eeee;
+    
+   
+  }
+  
+  .country-card{
+    display: flex;
+    gap: 10px;
+  }
+  .para-txt{
+    text-align: start;
+  }
+
+  
+  
+  
+  .contact-info {
+    text-align: start;
+  }
+  .city-list{
+    display: flex;
+    gap: 20px;
+  }
+  p:hover{
+    color: blue;
+  }
+  .contact-button{
+    background-color: blue;
+    color: white;
+  }

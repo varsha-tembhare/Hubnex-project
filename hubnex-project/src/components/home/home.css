@@ -1,0 +1,66 @@
+/* Contact Form Styles */
+.home-section{
+  display: flex;
+  gap: 30%;
+}
+
+
+
+form {
+  width: 600px;
+    margin: 0 auto;
+    padding: 50px;
+    
+    
+   
+    
+  
+  }
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-size: large;
+  }
+  
+  label {
+    display: flex;
+  
+    font-weight: bold;
+  }
+  
+  input {
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  .nb{
+    display: flex;
+   gap: 30%;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 80px;
+    width: 103%;
+    border-radius: 4px;
+  }
+  
+  .btn-submit {
+    background-color: #2306e0;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 95%;
+  }
+  
+  
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
