@@ -1,15 +1,20 @@
 h2{
     text-align: start;
 }
+h3{
+  justify-content: center;
+  align-items: end
+}
 
 
   .location-card {
-    border: 1px solid #ccc;
+    border: ;
     padding: 40px;
     text-align: center;
-    height: 5vh;
+    height: 10vh;
     width: 5vw;
     background-color: #f4eeee;
+    border-radius: 5px;
     
    
   }
@@ -17,6 +22,7 @@ h2{
   .country-card{
     display: flex;
     gap: 10px;
+    border-radius: 5px;
   }
   .para-txt{
     text-align: start;
@@ -31,11 +37,23 @@ h2{
   .city-list{
     display: flex;
     gap: 20px;
+    
   }
-  p:hover{
+  .city-list:hover{
     color: blue;
   }
   .contact-button{
     background-color: blue;
     color: white;
+    border-radius: 5px;
   }
+  .left{
+    padding-left: 20%;
+  }
+
+
+
+  
+
+
+

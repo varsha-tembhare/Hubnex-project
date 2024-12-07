@@ -38,7 +38,7 @@ function ContactForm() {
 <div className="home-section">
 
 <div >
-      <img src="hubnex-project/src/components/home/Frame 583.png" alt="" />
+      <img src="hubnex-project/public/home.png" alt="" />
     </div>
     <form onSubmit={handleSubmit}>
       <h1>Let's Talk-Contact our Experts</h1>

@@ -20,22 +20,22 @@ const Location =()=>{
   <div className="country-card">
  
   <div className="location-card">
-    <img src="C:\Users\HP\Desktop\internship project\hubnex-project\src\components\location\india flag.jpg" alt="India Flag"></img>
+    <img src="hubnex-project/public/india flag.jpg" alt=""></img>
     <h3>India</h3>
     </div>
   
   <div className="location-card">
-    <img src="hubnex-project/src/components/location/uae flag.png" alt="UAE Flag"></img>
+    <img src="hubnex-project/public/uae flag.png" alt=""></img>
     <h3>UAE</h3>
  </div>
 
   <div className="location-card">
-    <img src="india-flag.png" alt="India Flag"></img>
+    <img src="hubnex-project/public/usa flag.png" alt=""></img>
     <h3>USA</h3>
  </div>
 
    <div className="location-card">
-    <img src="india-flag.png" alt="India Flag"></img>
+    <img src="hubnex-project/public/indonesia flag..jpg" alt=""></img>
     <h3>INDONESIA</h3>
     </div>
 
@@ -44,17 +44,17 @@ const Location =()=>{
     <div className="lower-txt">
 
     <div className="city-list">
-      <p>Gurgaon</p>
-      <p>Bangalore</p>
-      <p>Pune</p>
-      <p>Lucknow</p>
+      <p className="city-txt" >Gurgaon</p>
+      <p  className="city-txt">Bangalore</p>
+      <p  className="city-txt">Pune</p>
+      <p  className="city-txt">Lucknow</p>
     </div>
     
     <div className="contact-info">
       
-      <p className="para-txt"><IoLocationOutline />  Etihad Airways Centre, Al Rahah, Al <br /> Muneera, Abu Dhabi, UAE</p>\
+      <p className="para-txt"><IoLocationOutline />  Etihad Airways Centre, Al Rahah, Al <br /> Muneera, Abu Dhabi, UAE</p>
       <p className="para-txt"> <CiMail />hello@hubnex.in</p>
-    <p className="para-txt"><MdOutlineCall />+91 1234567890</p>
+      <p className="para-txt"><MdOutlineCall />+91 1234567890</p>
     <button className="contact-button">Contact Us<FaArrowRightLong /></button>
     </div>
 
@@ -63,7 +63,7 @@ const Location =()=>{
 </div>
 
 <div>
-  <img src="hubnex-project/src/components/location/location.jpg"  alt=""  />
+  <img src="hubnex-project/src/components/location/location.css"  alt=""  />
 </div>
 
 
