@@ -8,15 +8,34 @@ h3{
 
 
   .location-card {
-    border: ;
+   
     padding: 40px;
     text-align: center;
+    justify-content: center;
+    align-items: end;
     height: 10vh;
     width: 5vw;
     background-color: #f4eeee;
     border-radius: 5px;
+    gap: 10%;
+    overflow: hidden;
     
    
+
+    
+   
+  }
+  h3{
+    margin-top: 5%;
+  }
+  .flag-box{
+    height: 10vh;
+    max-width: 100%;
+    max-height: 100%;
+    align-items: start;
+    background-color: #f4eeee;
+    
+    
   }
   
   .country-card{
@@ -50,9 +69,103 @@ h3{
   .left{
     padding-left: 20%;
   }
+  .location-image{
+    height: 54vh;
+    margin-top: 22%;
+    border-radius: 3%;
+  }
+  .second-page{
+    display: flex;
+    gap: 5%;
+  }
+
+   /* Responsive Styling */
+   @media (max-width: 1024px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  
+    .footer-section {
+      max-width: 100%;
+      text-align: center;
+    }
+  
+    .footer-section.about {
+      min-width: auto;
+      margin-top: 0;
+    }
+  
+    .footer-section h2 {
+      font-size: 24px;
+    }
+  
+    .footer-section p {
+      font-size: 16px;
+    }
+  
+    .footer-section.links h3 {
+      font-size: 18px;
+    }
+  
+    .footer-section.links ul li {
+      font-size: 14px;
+    }
+  
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  }
+  
 
 
 
+
+  @media (min-width: 400px) {
+    .footer {
+      width: 90vw;
+      padding: 20px;
+    }
+  
+    .footer-content {
+      gap: 15px;
+    }
+  
+    .footer-section h2 {
+      font-size: 20px;
+    }
+  
+    .footer-section p {
+      font-size: 14px;
+    }
+  
+    .footer-section.links h3 {
+      font-size: 16px;
+    }
+  
+    .footer-section.links ul li {
+      font-size: 13px;
+    }
+  
+    .social-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  
+    .social-icons i {
+      font-size: 22px;
+    }
+  }
   
 
 

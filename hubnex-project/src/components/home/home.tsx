@@ -1,14 +1,16 @@
 import "./home.css";
 import { FaArrowRightLong } from "react-icons/fa6";
 
-
-
+<>
+<div>
+  <img src="hubnex-project/src/components/home/Frame 583.png" alt="" />
+</div>
 
 <div>
     <h1>Let's Talk-Contact our Experts</h1>
     <p>Tell us a little bit about yourself and your queries. Our customer experience team will reach out to you within 24 hours</p>
   </div>
-
+  </>
 
 
 import React, { useState } from 'react';
@@ -38,7 +40,7 @@ function ContactForm() {
 <div className="home-section">
 
 <div >
-      <img src="hubnex-project/public/home.png" alt="" />
+      <img src="hubnex-project\public\home.png" alt="" />
     </div>
     <form onSubmit={handleSubmit}>
       <h1>Let's Talk-Contact our Experts</h1>
